@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/gi', function () {
+Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/create', 'BukuController@CreateView')->name('view');
